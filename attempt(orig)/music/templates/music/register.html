@@ -1,0 +1,26 @@
+
+{% extends 'music/base_visitor.html' %}
+
+{% block title %}Register{% endblock %}
+{% block register_active %}active{% endblock %}
+
+{% block body %}
+
+
+<form role="form" action="" method="POST" class="registration-form">
+
+                             {% csrf_token %}
+        
+                 {% include 'music/form_template.html' %}
+      {% for field in form %}
+        
+        {{ field.errors }}
+     
+         
+{% endfor %}
+      {{form.password.error}}            {% endblock %}
+
+
+}
+
+

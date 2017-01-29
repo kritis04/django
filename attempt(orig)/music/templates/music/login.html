@@ -1,0 +1,66 @@
+
+{% extends 'music/base_visitor.html' %}
+
+{% block title %}Login{% endblock %}
+{% block login_active %}active{% endblock %}
+
+{% block body %}
+
+          
+<form role="form" action="" method="POST" class="login-form">
+
+                             {% csrf_token %}
+   
+<div style="display:inline-block;" id="apDiv1">
+
+ <div class="panel-heading" >
+Sign In
+</div>
+    <div class="row">
+        
+                           
+                       
+                            <table class="spacing-table" >
+
+                              <div class="form-group">
+                               
+                              </div>
+                             <tr>
+                               <td><input id="id_username" maxlength="30" name="username" type="text" placeholder="Username" required></td>
+                              
+</tr>
+                            
+
+                              <tr>
+    
+                             
+                               <td><input id="id_password" maxlength="30" name="password" type="password" placeholder="Password" required ></td>
+                              
+</tr>
+                              <tr>
+    
+                             
+                           
+                            
+</table>
+  <div class="form-group" id="sub" >
+ 
+                        <button type="submit" class="btn btn-success" >Login</button>
+ 
+                   </div>
+     
+ 
+  
+                 </div>   
+        
+       </div>
+{% if error_message %}
+                        <p><strong>{{ error_message }}</strong></p>
+                    {% endif %}
+                                
+                                                  {% endblock %}
+
+
+}
+
+

@@ -1,0 +1,159 @@
+body {
+     background: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul.errorlist {
+    padding-left: 0;
+}
+
+ul.errorlist > li {
+    list-style: none;
+}
+
+.navbar {
+    border-radius: 0;
+	
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+}
+
+
+
+.row
+{width:430px;
+border-color:#00C;
+
+}
+input {
+    width: 400px;
+    height: 40px;
+    font-family: "Helvetica Neue";
+    border-radius: 3px;
+    border: 1.7px solid ;
+    border-color:#03F;
+    background: #fff;
+    padding:0px;
+}
+
+input[placeholder] {
+    font-size: 25px;
+}
+input:focus {
+	outline-color:#009;
+	border-width:2px;
+	outline-width:5px;
+  
+}
+#apDiv1 {
+	position: absolute;
+	left: 850px;
+	top: 120px;
+    background:rgba(110, 0, 255, 0.47)	;
+	width:450px;
+	
+	
+	
+}
+
+#id_firstname {
+    width:198px;
+    height: 40px;
+    
+}
+#id_lastname {
+    
+     width:198px;
+    height: 40px;
+}
+td
+{      
+	
+	
+}
+
+table tr
+{       
+	border-bottom: 13px solid transparent;
+	
+    
+}
+.panel-heading
+{
+	background-color:#009;
+	height:40px;
+	font-size:27px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#FFF;
+	padding:2px;
+	text-align:center;
+	font-weight:500;
+	
+	
+}
+
+.panel-transparent {
+        background: none;
+    }
+
+.panel-transparent .panel-heading
+{
+        background: rgba(29, 29, 185, 1)!important;
+}
+
+.panel-transparent .panel-body
+{       
+        background:rgba(110, 0, 255, 0.47);!important;
+        margin-bottom: -8px;
+		opacity:0.4;
+		
+}
+table.spacing-table
+{
+	 width: auto;
+    margin-right: 0px;
+    margin-left: 40px;
+}
+#sel
+{margin-bottom: 14px;
+height:40px;
+font-family: "Helvetica Neue";
+font-size:25px;
+padding: 0;
+width: 400px;
+margin-right: 0px;
+margin-left: 40px;
+
+
+}
+
+p
+{
+left:400px;
+}
+select option{color: grey;}
+.btn
+{border-radius:1px;
+width:400px;
+background:#29a329;
+height:40px;
+font-size:25px;
+padding:2px;
+margin-right: 0px;
+margin-left: 40px;
+}
+#cright
+{
+	margin-left:600px;
+	margin-top:800px;
+	text-height:50px;
+	color:#FFF;
+	
+
+
+font-size:30px;
+
+}
